@@ -46,7 +46,7 @@ export const UrlSearch: React.FC<Props> = ({ onScan, loading }) => {
           <div className="relative flex-1 w-full">
             <input
               type="text"
-              className="w-full bg-zinc-900 border border-zinc-700 focus:border-white text-white px-4 py-3 text-sm rounded-lg outline-none font-mono placeholder:text-zinc-500 transition shadow-inner"
+              className="w-full bg-zinc-900 border border-zinc-700 focus:border-white text-white pl-4 pr-20 py-3 text-sm rounded-lg outline-none font-mono placeholder:text-zinc-500 transition shadow-inner"
               placeholder="https://stripe.com"
               value={url}
               onChange={(e) => setUrl(e.target.value)}
