@@ -1,0 +1,8 @@
+node_modules
+dist
+.env
+howbuilt.db
+howbuilt.db-wal
+howbuilt.db-shm
+*.db
+.DS_Store
